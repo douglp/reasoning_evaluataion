@@ -37,7 +37,7 @@ def test_model(numbers, client, modelName):
     ### Input example:
     Numbers: [3, 3, 8, 8]
     Output:
-    {{"solvable": true, "solutions": ["3*(8-8/3)"]}}
+    {{"solvable": true, "solutions": ["8/(8-8/3)"]}}
 
     ### Required Output Format:
     {{"solvable": true/false, "solutions": ["solution1", "solution2", ...]}}
